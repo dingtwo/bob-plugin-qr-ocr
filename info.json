@@ -1,0 +1,29 @@
+{
+    "identifier": "com.dingjz.bob.qr",
+    "version": "1.0.0",
+    "category": "ocr",
+    "name": "二维码识别",
+    "summary": "先识别是否有二维码,没有则调用腾讯云 ocr 识别",
+    "icon": "",
+    "author": "dingjz",
+    "homepage": "https://github.com/dingtwo",
+    "appcast": "",
+    "minBobVersion": "0.5.0",
+    "options": [
+        {
+            "identifier": "secretId",
+            "type": "text",
+            "title": "secretId"
+        },
+        {
+            "identifier": "secretKey",
+            "type": "text",
+            "title": "secretKey"
+        },
+        {
+            "identifier": "url",
+            "type": "text",
+            "title": "服务url"
+        }
+    ]
+}
